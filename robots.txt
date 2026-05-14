@@ -36,7 +36,7 @@ Disallow: /account/
 Disallow: /tag/
 Disallow: /author/
 
-
+Allow: facebookexternalhit
 Allow: /wp-admin/admin-ajax.php
 Allow: *.js
 Allow: *.css
