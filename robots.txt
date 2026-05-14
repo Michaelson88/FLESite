@@ -41,5 +41,5 @@ Allow: /wp-admin/admin-ajax.php
 Allow: *.js
 Allow: *.css
 
-Sitemap: https://michaelson88.github.io/FLESite/
-sitemap: https://michaelson88.github.io/FLESite/server.html
+Sitemap: https://www.fleshlineextreme.com
+sitemap: https://www.fleshlineextreme.com/server.html
