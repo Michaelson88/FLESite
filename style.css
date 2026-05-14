@@ -96,6 +96,13 @@ main {
         width: 100%;
     }
 
+    .steam-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
     .article-container h1 {
     width: 99%;
     display: flex;
