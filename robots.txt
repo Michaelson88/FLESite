@@ -1,0 +1,45 @@
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+# ==========================================
+# 2. STANDARD SEARCH CRAWLERS
+# ==========================================
+# Rules for standard engines like Googlebot and Bingbot.
+
+User-agent: *
+# Block backend/admin areas
+Disallow: /wp-admin/
+Disallow: /admin/
+Disallow: /login
+Disallow: /dashboard
+
+# Block dynamic pages & e-commerce traps
+Disallow: /search/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /account/
+Disallow: /tag/
+Disallow: /author/
+
+
+Allow: /wp-admin/admin-ajax.php
+Allow: *.js
+Allow: *.css
+
+Sitemap: https://michaelson88.github.io/FLESite/
+sitemap: https://michaelson88.github.io/FLESite/server.html
