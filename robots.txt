@@ -8,7 +8,11 @@ User-agent: ClaudeBot
 Disallow: /
 
 User-agent: Meta-ExternalAgent
-Disallow: /
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
 
 User-agent: anthropic-ai
 Disallow: /
