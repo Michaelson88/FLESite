@@ -76,6 +76,10 @@ main {
 }
 
 @media only screen and (max-width: 768px) {
+
+    .head-ul {
+        font-size: smaller;
+    }
     
     .desktop-only {
         display: none;
