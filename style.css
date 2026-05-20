@@ -370,3 +370,44 @@ footer {
     cursor: pointer;
     transform: rotate(353deg);
 }
+
+/*Test New Footer Layout*/
+
+.site-footer {
+    background-color:  rgb(189, 150, 72);
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.footer-container {
+    max-width: 1200px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px;
+}
+
+.footer-address a {
+    color: white;
+    font-size: smaller;
+}
+
+.footer-quicklinks {
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+}
+
+a {
+    height: fit-content;
+    color: white;
+    padding: 12px;
+}
