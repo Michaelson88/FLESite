@@ -12,15 +12,14 @@ body {
     background-position: center;
 }
 
-/*Not Ready Hidden Pages*/
-
 header {
     width: 100%;
     height: 62px;
     background-color: rgb(189, 150, 72);
     border-bottom: solid 1px black;
-    font-size: larger;
-    font-weight: bold;
+    font-family: "Gabriela", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .head-ul {
@@ -32,7 +31,15 @@ header {
 }
 
 .head-font {
-    color:antiquewhite;
+    color: antiquewhite;
+    font-family: "Gabriela", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.head-font:hover {
+    text-shadow: 0 0 10px #FFFF00, 0 0 20px #FFFF00, 0 0 40px #FFFF00;
+    transform: scale(1.3);
 }
 
 /*Main*/
@@ -381,12 +388,14 @@ footer {
 }
 
 .brand-footer {
-    padding: 12px 
+    padding: 12px; 
+    list-style-type: none;
 }
 
 .brand-footer:hover {
     text-shadow: 0 0 10px #FFFF00, 0 0 20px #FFFF00, 0 0 40px #FFFF00;
-    transform: scale(1.6);
+    transition: all 0.4s;
+    transform: scale(0.9);
 }
 
 .copyright-li {
