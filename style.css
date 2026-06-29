@@ -324,6 +324,10 @@ main {
     .article-container h1 {
         font-size: 20px;
     }
+
+    .article-title {
+        font-size: 14px;
+    }
 }
 
 /*Footer*/
