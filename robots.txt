@@ -1,4 +1,4 @@
+Sitemap: https://fleshlineextreme.com
+
 User-agent: *
 Allow: /
-
-Sitemap: https://fleshlineextreme.com
