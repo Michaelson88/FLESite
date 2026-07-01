@@ -13,32 +13,22 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://fleshlineextreme.com/index.html</loc>
-  <lastmod>2026-05-25T19:25:16+00:00</lastmod>
-  <priority>.80</priority>
-</url>
-<url>
-  <loc>https://fleshlineextreme.com/dayz-hardcore.html</loc>
+  <loc>https://fleshlineextreme.com/dayz-hardcore</loc>
   <lastmod>2026-05-25T19:25:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://fleshlineextreme.com/dayz-plans.html</loc>
+  <loc>https://fleshlineextreme.com/dayz-plans</loc>
   <lastmod>2026-05-25T19:25:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://fleshlineextreme.com/dayz-map.html</loc>
+  <loc>https://fleshlineextreme.com/dayz-map</loc>
   <lastmod>2026-05-25T19:25:16+00:00</lastmod>
   <priority>0.60</priority>
 </url>
 <url>
-  <loc>https://fleshlineextreme.com/image-dayz.html</loc>
-  <lastmod>2026-05-25T19:25:16+00:00</lastmod>
-  <priority>0.60</priority>
-</url>
-<url>
-  <loc>https://fleshlineextreme.com/dayz-plans.html</loc>
+  <loc>https://fleshlineextreme.com/images-dayz</loc>
   <lastmod>2026-05-25T19:25:16+00:00</lastmod>
   <priority>0.60</priority>
 </url>
