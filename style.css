@@ -506,14 +506,31 @@ footer {
 	
 }
  .discord-banner i {
-	color: rgb(88, 101, 242);
+	color: rgb(189,150,72);
 	font-size: 75px;
  }
  .discord-banner i:hover {
-	color: rgb(189,150,72);
+	color: rgb(78, 13, 143);
 	transition: .2s ease-in;
 }
  .discord-join-text {
 	padding-top: 12px;
 	text-align: center;
+ }
+
+ #image-container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+ }
+
+ #chernarus-map {
+	width: 80%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid 1px #ccc;
+	border-radius: 12%
  }
