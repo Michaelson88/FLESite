@@ -514,6 +514,9 @@ footer {
 	transition: .2s ease-in;
 }
  .discord-join-text {
+	width: 100%;
+	height: auto;
+	font-size: 7px;
 	padding-top: 12px;
 	text-align: center;
  }
@@ -533,4 +536,9 @@ footer {
 	align-items: center;
 	border: solid 1px #ccc;
 	border-radius: 12%
+ }
+
+ #map-icons {
+	font-size: 50px;
+	color: rgb(255, 0, 0);
  }
