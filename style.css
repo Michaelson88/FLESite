@@ -179,7 +179,9 @@ p {
 	#article-intro-container {
 		width: 75%;
 		height: auto;
-		
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	#article-intro-title {
@@ -193,7 +195,7 @@ p {
 	#article-wrap {
 		background-color: black;
 		padding: 2px;
-		border-radius: 65%;
+		justify-content: center;
 	}
 	.head-ul {
 		font-size: smaller;
@@ -214,6 +216,16 @@ p {
 		align-items: center;
 	}
 
+	.article-container h1 {
+		width: 99%;
+		display: flex;
+		justify-content: center;
+		margin-top: 12px;
+		margin-bottom: 12px;
+		font-size: 26px;
+		text-align: center;
+	}
+
 	p {
 		width: 100%;
 		margin-top: 9px;
@@ -226,16 +238,6 @@ p {
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-	}
-
-	.article-container h1 {
-		width: 99%;
-		display: flex;
-		justify-content: center;
-		margin-top: 12px;
-		margin-bottom: 12px;
-		font-size: 26px;
-		text-align: center;
 	}
 
 	.article-izurvive h1 {
@@ -579,6 +581,10 @@ footer {
 	border-radius: 12%
  }
 
+ #chernarus-map:hover {
+	opacity: .9;
+ }
+
  #map-icons {
 	font-size: 30px;
 	color: rgb(50, 48, 48);
@@ -599,12 +605,18 @@ footer {
 		height: auto;
 		display: flex;
 		padding: 4px;
+		gap: 11px;
 	}
 
 	#fig-intro-container img {
 		width: 50%;
 		height: auto;
-		border: solid white 1px;
+		border: solid rgb(0, 0, 0) 1px;
+	}
+
+	#fig-intro-container img:hover {
+		cursor: pointer;
+		opacity: .9;
 	}
 
 	#article-intro-container {
@@ -622,7 +634,9 @@ footer {
 	}
 
 	#article-wrap {
-		background-color: black;
 		padding: 8px;
-		border-radius: 49%;
+	}
+
+	#home-server-title {
+		color: rgb(189,150,72);
 	}
