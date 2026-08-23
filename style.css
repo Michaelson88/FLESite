@@ -312,6 +312,15 @@ p {
 		width: 50%;
 	}
 
+	/*Article Spam Description*/
+
+	.map-image-container img {
+		border-radius: 22px;
+	}
+	#map-bio-desc {
+		font-size: 10px
+	}
+
 	.article-container {
 		display: flex;
 		justify-content: center;
