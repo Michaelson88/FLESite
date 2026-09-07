@@ -207,6 +207,10 @@ p {
 	transition: .5s ease-in;
 }
 
+.arma-games {
+	text-align: center;
+}
+
 .build-anywhere {
 	color: rgba(77, 177, 10);
 }
