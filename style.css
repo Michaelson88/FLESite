@@ -772,6 +772,10 @@ footer {
 	color: rgb(140, 108, 68);
 }
 
+#chernarus-headerz { 
+	font-size: 20px;
+}
+
 .dayz-map-article-container p {
     width: 100%;
     height: 35%;
@@ -805,7 +809,7 @@ footer {
 
 /* New dayz-mapv1 */
 
-@media only screen and (min-width: 360px) {
+@media only screen and (max-width: 360px) {
 	.dayz-mapv1 {
     width: 100%;
     height: auto;
@@ -852,6 +856,7 @@ footer {
 	align-items: start;
 	box-sizing: border-box;
 	overflow: hidden;
+	display: none;
 }
 
 .dayz-map-image-container {
