@@ -878,12 +878,13 @@ footer {
 	height: auto;
 	text-align: center;
 	padding: 29px;
-	color: white;
+	color: rgb(78, 13, 143);
 }
 
 #download-descript {
-	font-size: 12px;
+	font-size: 9px;
 	font-weight: bold;
+	color: white;
 }
 
 
@@ -963,11 +964,11 @@ footer {
 	height: auto;
 	text-align: center;
 	padding: 29px;
-	color: white;
+	color: rgb(78, 13, 143);
 }
 
 #download-descript {
-	font-size: 12px;
+	font-size: 8px;
 	font-weight: bold;
 }
 
