@@ -873,6 +873,19 @@ footer {
     opacity: .8;
 }
 
+.anouncement-banner {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 29px;
+	color: white;
+}
+
+#download-descript {
+	font-size: 12px;
+	font-weight: bold;
+}
+
 
 @media only screen and (max-width: 991px) {
 	.dayz-mapv1 {
